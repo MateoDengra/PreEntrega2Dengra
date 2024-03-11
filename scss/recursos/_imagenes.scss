@@ -1,0 +1,46 @@
+#fotologo{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 155px;
+    background-color: $gris;}
+    
+.evolucion img{
+    height: 400px;
+    max-width: 100%;}
+
+#fotoestilo{
+    height: 300px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    max-width: 100%;}
+
+.intro_cura img{
+    overflow: hidden;
+    max-width: 100%;}
+@media (max-width: 805px){
+    #fotoestilo{
+    height: auto;}
+}
+
+@media (max-width: 600px){
+.origenes img{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0;}
+.evolucion img{
+    justify-content: center;
+    margin: 0;}
+.intro_cura img{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    overflow: hidden;
+}}
+@media (max-width: 260px){
+    #fotologo{
+        height: 40px;
+        width: 77px;}
+}

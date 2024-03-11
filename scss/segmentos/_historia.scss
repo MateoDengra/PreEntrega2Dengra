@@ -1,0 +1,36 @@
+.origenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        height: 250px;
+        margin-right: 50px;
+        width: auto;
+        overflow: hidden;}
+}
+
+.Actualidad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        height: 600px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 1190px){
+    .Actualidad img{
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+}
+@media (max-width: 805px){
+    .evolucion img{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+}

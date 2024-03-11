@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import "./recursos/variables.scss";
+@import "./recursos/mixins.scss";
+@import "./recursos/extends.scss";
+@import "./recursos/fuentes.scss";
+@import "./recursos/general.scss";
+@import "./recursos/imagenes.scss";
+
+@import "./segmentos/barra_nav.scss";
+@import "./segmentos/inicio.scss";
+@import "./segmentos/historia.scss";
+@import "./segmentos/estilos.scss";
+@import "./segmentos/curacion.scss";
+@import "./segmentos/form_consultas.scss";
+@import "./segmentos/footer.scss";

@@ -1,0 +1,169 @@
+.grilla{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.container {  display: grid;
+    background-color: $gris;
+    height: 650px;
+    width: 700px;
+    border: $rojo 4px;
+    border-style: groove;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    grid-template-areas:
+      "tatu1 tatu1 tatu1 tatu1 tatu5 tatu5 tatu2 tatu2"
+      "tatu1 tatu1 tatu1 tatu1 tatu5 tatu5 tatu2 tatu2"
+      "tatu3 tatu3 tatu4 tatu4 tatu5 tatu5 tatu6 tatu6"
+      "tatu3 tatu3 tatu4 tatu4 tatu5 tatu5 tatu6 tatu6"
+      "tatu7 tatu7 tatu7 tatu7 tatu8 tatu8 tatu6 tatu6"
+      "tatu7 tatu7 tatu7 tatu7 tatu8 tatu8 tatu6 tatu6"
+      "tatu9 tatu9 tatu9 tatu9 tatu9 tatu10 tatu10 tatu10"
+      "tatu9 tatu9 tatu9 tatu9 tatu9 tatu10 tatu10 tatu10";
+  }
+  
+  .tatu1 {
+    grid-area: tatu1; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+  
+  .tatu3 { 
+    grid-area: tatu3; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+
+  .tatu4 { 
+    grid-area: tatu4; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+
+  .tatu2 { 
+    grid-area: tatu2; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+  
+  .tatu5 { 
+    grid-area: tatu5; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+  
+  .tatu6 { 
+    grid-area: tatu6; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+  
+  .tatu7 { 
+    grid-area: tatu7; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+
+  .tatu8 { 
+    grid-area: tatu8; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+
+  .tatu9 { 
+    grid-area: tatu9; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+  
+  .tatu10 { 
+    grid-area: tatu10; 
+    @extend .p_grid;
+    img{ 
+        @include full-transition-cover}}
+
+.estilostatus article{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 805px){
+    .container {
+        max-width: 100%; 
+        height: auto;
+        width: auto;
+        gap: 8px;
+        aspect-ratio: 1
+    }
+    .tatu1 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu2 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu3 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu4 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu5 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu6 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu7 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu8 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu9 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .tatu10 {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        object-fit: cover;
+        overflow: hidden;
+    }
+}

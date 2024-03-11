@@ -1,0 +1,53 @@
+h1{
+    @extend .poppins_blanco_m20px;
+    font-size: $Th1;
+    font-weight: 1000;}
+h2{
+    @extend .poppins_blanco_m20px;
+    font-size: $Th2; 
+    font-weight: 1000;}
+h3{
+    @extend .poppins_blanco_m20px;
+    font-size: $Th3;
+    font-weight: 1000;}
+
+p{
+    @extend .poppins_blanco_m20px;
+    font-size: $Tp;
+    text-align: justify;}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    &:hover{
+        text-decoration: underline;
+        color: $rojo;}}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+}
+@media (max-width: 805px){
+a{padding: 0;}
+}
+@media (max-width: 600px){
+    // La idea es reducir los valores a un 80%
+    h1{
+        font-size: $Th1*0.8;}
+    h2{
+        font-size: $Th2*0.8;}
+    h3{
+        font-size: $Th3*0.8;}
+    p{
+        font-size: $Tp*0.8;}}
+
+@media (max-width: 400px){
+// Al igual que antes, buscamos reducir los valores a un 60%
+    h1{
+        font-size: $Th1*0.6;}
+    h2{
+        font-size: $Th2*0.6;}
+    h3{
+        font-size: $Th3*0.6;}
+    p{
+        font-size: $Tp*0.6;}}

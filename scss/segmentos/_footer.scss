@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    padding: 20px 10px;
+    background-color: $gris;
+    justify-content: space-between;
+    a{
+        background-color: $gris;
+    }
+    div{
+        background-color: $gris;
+        a{
+            color: $rojo;
+            background-color: $blanco;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 20px;
+        }}
+        ul{
+            display: flex;
+            padding: 0;
+            li{
+                list-style: none;
+                display: flex;
+                padding: 0 20px;
+                background-color: $gris;}}
+        img{
+                height: 20px;
+                background-color: $gris;}
+        &:hover{
+            text-decoration: underline;
+            color: $rojo;
+        }
+}
+
+@media (max-width: 600px){
+footer div a{
+    font-size: 10px;
+    padding: 10px}
+footer ul{
+    flex-direction: column;
+    li{
+        padding: 5px;}}}

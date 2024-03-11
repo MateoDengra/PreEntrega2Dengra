@@ -1,0 +1,31 @@
+.preambulo{
+    display: flex;
+    p{
+        margin-right: 20px;}
+    img{
+        height: 300px;}
+}
+
+.quesonlostatus{
+    display: flex;
+    p{
+        margin-right: 20px ;}
+    img{
+        height: 300px;
+        margin-right: 50px;}
+}
+
+@media (max-width: 1100px){
+    .preambulo {
+        flex-direction: column;
+        img{
+            width: auto;
+            height: auto;}
+    }
+    .quesonlostatus{
+        flex-direction: column;
+        img{
+            width: auto;
+            height: auto;}
+    }
+}

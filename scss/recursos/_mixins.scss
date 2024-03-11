@@ -1,0 +1,9 @@
+// Agregado para las imagenes dentro de los grid
+@mixin full-transition-cover{
+    width: 100%; 
+    height: 100%; 
+    transition: 
+    transform 0.3s ease; 
+    object-fit: cover; 
+    &:hover{transform: scale(1.2)}
+}
