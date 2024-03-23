@@ -16,8 +16,7 @@
     img{
         height: 600px;
         margin-right: 50px;
-    }
-}
+    }}
 
 @media (max-width: 1190px){
     .Actualidad img{
@@ -25,12 +24,18 @@
         width: auto;
         height: auto;
         margin: 0;
-    }
-}
+    }}
 @media (max-width: 805px){
     .evolucion img{
         width: auto;
         height: auto;
         overflow: hidden;
-    }
+        max-height: 100%; 
+    }}
+    @media (max-width: 600px){
+.origenes img{
+    width: auto;
+    height: auto;
+    max-width: 100%; 
 }
+    }
